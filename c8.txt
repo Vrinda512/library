@@ -91,7 +91,7 @@ int main()	{
 				i++;	break;
 				
 			case 2: cin.ignore();
-				cout<<"\nEnter Title Of Book: "; cin.getline(ttbuy,20);
+				cout<<"\nEnter Title the Book: "; cin.getline(ttbuy,20);
 				cout<<"Enter Author Of Book: ";  cin.getline(atbuy,20);
 				for(t=0;t<i;t++)	{
 					if(B[t]->search(ttbuy,atbuy))	{
